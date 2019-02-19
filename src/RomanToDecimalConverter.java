@@ -30,6 +30,8 @@
              return evaluateCoupleOfSymbols(expression.substring(expressionLength-2,expressionLength))+evaluateSymbol(expression.charAt(expressionLength-3));
          if(expressionLength >3)
              return evaluateCoupleOfSymbols(expression.substring(expressionLength-2,expressionLength))+convert(expression.substring(0,expressionLength-2)) ;
+         if(expressionLength==1)
+             return evaluateSymbol(expression.charAt(0)) ;
          return evaluateCoupleOfSymbols(expression) ;
      }
  }

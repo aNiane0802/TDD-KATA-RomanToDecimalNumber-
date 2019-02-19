@@ -32,6 +32,7 @@ public class RomanToDecimalConverterTest {
 
     @Test
     public void testConvert(){
+        assertEquality(1000,converter.convert("M"));
         assertEquality(2000, converter.convert("MM"));
         assertEquality(2005, converter.convert("MMV"));
         assertEquality(2006, converter.convert("MMVI"));

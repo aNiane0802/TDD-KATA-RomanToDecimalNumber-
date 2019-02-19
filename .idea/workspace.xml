@@ -4,6 +4,7 @@
     <list default="true" id="08566436-52af-44de-b148-75e82f1e7faf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RomanToDecimalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToDecimalConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToDecimalConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToDecimalConverterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RomanToDecimalConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1863#1864#0" expanded="true" />
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RomanToDecimalConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="495">
+              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -112,7 +113,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550596314096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550597044870" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -196,17 +197,11 @@
       <updated>1550263580884</updated>
       <workItem from="1550263582326" duration="2408000" />
       <workItem from="1550267213699" duration="70000" />
-      <workItem from="1550525202855" duration="13348000" />
+      <workItem from="1550525202855" duration="14010000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanConverterTest_testSubstring - 2019.02.19 at 16h 47m 50s.xml">
-      <configuration name="RomanConverterTest.testSubstring" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest_testSubstring - 2019.02.19 at 16h 48m 42s.xml">
-      <configuration name="RomanConverterTest.testSubstring" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanConverterTest_testConvert - 2019.02.19 at 16h 48m 48s.xml">
       <configuration name="RomanConverterTest.testConvert" configurationId="JUnit" />
     </history-entry>
@@ -231,9 +226,15 @@
     <history-entry file="RomanToDecimalConverterTest_testConvert - 2019.02.19 at 18h 11m 19s.xml">
       <configuration name="RomanToDecimalConverterTest.testConvert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanToDecimalConverterTest_testConvert - 2019.02.19 at 18h 22m 55s.xml">
+      <configuration name="RomanToDecimalConverterTest.testConvert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanToDecimalConverterTest_testConvert - 2019.02.19 at 18h 23m 17s.xml">
+      <configuration name="RomanToDecimalConverterTest.testConvert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15826000" />
+    <option name="totallyTimeSpent" value="16488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-332" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -280,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RomanToDecimalConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="408">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1863#1864#0" expanded="true" />
@@ -292,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RomanToDecimalConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="495">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
         </state>
       </provider>
     </entry>
