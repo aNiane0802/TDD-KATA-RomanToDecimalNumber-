@@ -1,18 +1,30 @@
  class RomanConverter {
 
-     public int convert(String symbol) {
-         if(symbol.equals("V"))
+     public int convertSymbol(char symbol) {
+         return evaluateSymbol(symbol) ;
+     }
+
+     private int evaluateSymbol(char symbol) {
+         if(symbol == 'V')
              return 5 ;
-         if(symbol.equals("X"))
+         if(symbol == 'X')
              return 10 ;
-         if(symbol.equals("L"))
+         if(symbol == 'L')
              return 50;
-         if(symbol.equals("C"))
+         if(symbol == 'C')
              return 100 ;
-         if(symbol.equals("D"))
+         if(symbol == 'D')
              return 500 ;
-         if (symbol.equals("M"))
+         if (symbol == 'M')
              return 1000;
          return 1;
+     }
+
+     public int convert(String expression) {
+         int lastSymbol = evaluateSymbol(expression.charAt(1));
+         int firstSymbol = evaluateSymbol(expression.charAt(0));
+         if(lastSymbol>firstSymbol)
+             return lastSymbol-firstSymbol;
+         return lastSymbol + firstSymbol;
      }
  }
