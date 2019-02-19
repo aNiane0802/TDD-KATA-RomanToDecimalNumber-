@@ -1,9 +1,5 @@
  class RomanConverter {
 
-     public int convertSymbol(char symbol) {
-         return evaluateSymbol(symbol) ;
-     }
-
      private int evaluateSymbol(char symbol) {
          if(symbol == 'V')
              return 5 ;
@@ -20,11 +16,20 @@
          return 1;
      }
 
-     public int convert(String expression) {
+     private int evaluateCoupleOfSymbols(String expression) {
          int lastSymbol = evaluateSymbol(expression.charAt(1));
          int firstSymbol = evaluateSymbol(expression.charAt(0));
          if(lastSymbol>firstSymbol)
              return lastSymbol-firstSymbol;
          return lastSymbol + firstSymbol;
+     }
+
+     public int convert(String expression) {
+         int expressionLength = expression.length();
+         if(expressionLength ==3)
+             return evaluateCoupleOfSymbols(expression.substring(expressionLength-2,expressionLength))+evaluateSymbol(expression.charAt(expressionLength-3));
+         if(expressionLength >3)
+             return evaluateCoupleOfSymbols(expression.substring(expressionLength-2,expressionLength))+convert(expression.substring(0,expressionLength-2)) ;
+         return evaluateCoupleOfSymbols(expression) ;
      }
  }
