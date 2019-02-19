@@ -17,11 +17,11 @@
      }
 
      private int evaluateCoupleOfSymbols(String expression) {
-         int lastSymbol = evaluateSymbol(expression.charAt(1));
-         int firstSymbol = evaluateSymbol(expression.charAt(0));
-         if(lastSymbol>firstSymbol)
-             return lastSymbol-firstSymbol;
-         return lastSymbol + firstSymbol;
+         int lastSymbolEvaluation= evaluateSymbol(expression.charAt(1));
+         int firstSymbolEvaluation = evaluateSymbol(expression.charAt(0));
+         if(lastSymbolEvaluation>firstSymbolEvaluation)
+             return lastSymbolEvaluation-firstSymbolEvaluation;
+         return lastSymbolEvaluation + firstSymbolEvaluation;
      }
 
      public int convert(String expression) {
