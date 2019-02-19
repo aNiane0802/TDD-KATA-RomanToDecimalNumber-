@@ -1,4 +1,4 @@
- class RomanConverter {
+ class RomanToDecimalConverter {
 
      private int evaluateSymbol(char symbol) {
          if(symbol == 'V')
