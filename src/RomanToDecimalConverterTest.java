@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class RomanToDecimalConverterTest {
 
-    private RomanToDecimalConverter romanToDecimalConverter = new RomanToDecimalConverter() ;
+    private RomanToDecimalConverter converter = new RomanToDecimalConverter() ;
 
     /*
 
@@ -11,33 +11,33 @@ public class RomanToDecimalConverterTest {
 
     @Test
     public void testSingleSymbolEvaluation(){
-        assertEquality(1, romanToDecimalConverter.evaluateSymbol('I'));
-        assertEquality(5, romanToDecimalConverter.evaluateSymbol('V'));
-        assertEquality(10,romanToDecimalConverter.evaluateSymbol('X'));
-        assertEquality(50,romanToDecimalConverter.evaluateSymbol('L'));
-        assertEquality(100,romanToDecimalConverter.evaluateSymbol('C'));
-        assertEquality(500,romanToDecimalConverter.evaluateSymbol('D'));
-        assertEquality(1000,romanToDecimalConverter.evaluateSymbol('M'));
+        assertEquality(1, converter.evaluateSymbol('I'));
+        assertEquality(5, converter.evaluateSymbol('V'));
+        assertEquality(10,converter.evaluateSymbol('X'));
+        assertEquality(50,converter.evaluateSymbol('L'));
+        assertEquality(100,converter.evaluateSymbol('C'));
+        assertEquality(500,converter.evaluateSymbol('D'));
+        assertEquality(1000,converter.evaluateSymbol('M'));
     }
 
     @Test
     public void testCoupleOfSymbolsEvaluation(){
-        assertEquality(6,romanToDecimalConverter.evaluateCoupleOfSymbols("VI"));
-        assertEquality(11,romanToDecimalConverter.evaluateCoupleOfSymbols("XI"));
-        assertEquality(4,romanToDecimalConverter.evaluateCoupleOfSymbols("IV"));
-        assertEquality(9,romanToDecimalConverter.evaluateCoupleOfSymbols("IX"));
+        assertEquality(6,converter.evaluateCoupleOfSymbols("VI"));
+        assertEquality(11,converter.evaluateCoupleOfSymbols("XI"));
+        assertEquality(4,converter.evaluateCoupleOfSymbols("IV"));
+        assertEquality(9,converter.evaluateCoupleOfSymbols("IX"));
     }
 
     */
 
     @Test
     public void testConvert(){
-        assertEquality(2000, romanToDecimalConverter.convert("MM"));
-        assertEquality(2005, romanToDecimalConverter.convert("MMV"));
-        assertEquality(2006, romanToDecimalConverter.convert("MMVI"));
-        assertEquality(2004, romanToDecimalConverter.convert("MMIV"));
-        assertEquality(2014, romanToDecimalConverter.convert("MMXIV"));
-        assertEquality(1944, romanToDecimalConverter.convert("MCMXLIV"));
+        assertEquality(2000, converter.convert("MM"));
+        assertEquality(2005, converter.convert("MMV"));
+        assertEquality(2006, converter.convert("MMVI"));
+        assertEquality(2004, converter.convert("MMIV"));
+        assertEquality(2014, converter.convert("MMXIV"));
+        assertEquality(1944, converter.convert("MCMXLIV"));
 
     }
 
